@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../images/body-pic.png);
+}
+
+.header {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #999;
+
+}
+
+.header {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  
+}
+
+nav ul li + li::before {
+  content: "";
+  border-left: 1px solid #ccc;
+  margin-right: 10px;
+  height: 15px;                             /* navbarin aralarindaki xettler */  
+   display: inline-block;                   
+} 
+
+.main-class {
+  margin-top: 125px;
+  width: 100%;
+ 
+
+}
+
+.main-class {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.middle-page {
+  background-color: #fff;
+  width: 650px;
+  height: 400px;
+  margin-left: 200px;
+  margin-bottom: 125px;
+  
+  
+}
+
+.middle-page-flex {
+  display: flex;
+}
+
+.middle-page img {
+    width: 200px;
+    height: 150px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    
+}
+.middle-page h2
+{
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    margin-left: 40px;
+    width: 90%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.middle-page p{
+  margin-left: 40px;
+  
+
+}
+
+.contact-me {
+  background-color: #fff;
+  width: 270px;
+  height: 200px;
+  margin-left: 50px;
+}
+
+.contact-me h2 {
+  border-bottom: 2px solid #eee;
+  width: 80%;
+  margin-left: 10px;
+  padding: 15px 15px;
+  text-align: center;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 22px;
+  color: #4aaaa5;
+
+}
+
+.contact-me img {
+  margin-top: 15px;
+  width: 62px;
+  height: 62px;
+  margin-left: 10px;
+  padding: 5px 3px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 80vh;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #999;
+  text-align: center;
+}
+
+h1 {
+  background-color: #4aaaa5;
+  width: 180px;
+  height: 85px;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 22px;
+  margin-left: 200px;
+  padding: 1px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 90px;
+}
+
+.footer-class {
+  position: relative;
+  height: 80px;
+  background-color: #999;
+  border-top: 8px solid #4aaaa5;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+
+ 
+}
