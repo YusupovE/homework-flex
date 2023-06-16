@@ -14,7 +14,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  border-bottom: 1px solid #999;
+  border-bottom: 2px solid #ccc;
 }
 
 .header {
@@ -141,7 +141,7 @@ h1 {
   height: 85px;
   color: #fff;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 22px;
+  font-size: 30px;
   margin-left: 200px;
   padding: 1px;
   text-align: center;
@@ -160,3 +160,50 @@ h1 {
   color: #fff;
   font-size: 13px;
 }
+
+/* CONTACT.html */
+.middle-page-contact form ul label {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #777;
+  /* margin-left: 40px; */
+  margin: 7px 0px 0px 40px;
+}
+
+.middle-page-contact ul li input, textarea{
+  height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    margin: 7px 0px 0px 40px;
+    width: 90%;
+}
+
+.middle-page-contact form  {
+  margin-top: -15px;
+}
+
+textarea {
+  height: 200px;
+}
+
+.middle-page-contact ul{
+  display: inline;
+}
+
+#height-contact
+{
+  height: 620px;
+}
+
+.middle-page-contact ul li button {
+  background-color: #4aaaa5;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 30px;
+  border: 1px solid #4aaaa5;
+  width: 25%;
+  margin: 20px 0px 0px 25px;
+}
+
